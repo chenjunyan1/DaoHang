@@ -1,0 +1,71 @@
+body {
+    background-color: darkorchid;
+}
+
+.geti {
+    display: flex;
+    align-items: center;
+}
+
+.geti>* {
+    margin: 10px;
+    border-style: solid;
+    align-self: center;
+    border-radius: 10px;
+}
+
+.geti1 {
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.geti2 {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item1 {
+    background-color: aqua;
+    color: cadetblue;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.geti1 div {
+    display: flex;
+    background-color: chocolate;
+    color: cadetblue;
+    width: 50px;
+    height: 50px;
+}
+
+.geti2 div {
+    background-color: darkgreen;
+    color: cadetblue;
+    width: 50px;
+    height: 50px;
+}
+
+div#paixu1 {
+    order: 1;
+}
+
+div#paixu2 {
+    order: 3;
+}
+
+div#paixu3 {
+    order: 2;
+}
+
+div#paixu4 {
+    order: 5;
+}
+
+div#paixu5 {
+    order: ;
+}
